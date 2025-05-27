@@ -1,0 +1,57 @@
+[
+    {
+      "id": 1,
+      "image": "https://i.ibb.co/Xf95SCXD/hannes-egler-6-SLd-XXVYQpo-unsplash.jpg",
+      "model": "Toyota Camry 2023",
+      "daily_price": "$45/day",
+      "available": true,
+      "booking_count": 12,
+      "date_posted": "2 days ago"
+    },
+    {
+      "id": 2,
+      "image": "https://i.ibb.co/JhDCtf1/meik-schneider-e9z-SM8or-If-A-unsplash.jpg",
+      "model": "Honda Civic 2022",
+      "daily_price": "$40/day",
+      "available": false,
+      "booking_count": 9,
+      "date_posted": "3 days ago"
+    },
+    {
+      "id": 3,
+      "image": "https://i.ibb.co/kgKmm4LJ/tim-krauss-90kh2-Qz-Qz-PI-unsplash.jpg",
+      "model": "Ford Mustang 2023",
+      "daily_price": "$80/day",
+      "available": true,
+      "booking_count": 5,
+      "date_posted": "1 day ago"
+    },
+    {
+      "id": 4,
+      "image": "https://i.ibb.co/XfdQvKwB/youssef-d-Dk-GUn0-Y1-Vz-A-unsplash.jpg",
+      "model": "Chevrolet Malibu 2021",
+      "daily_price": "$38/day",
+      "available": true,
+      "booking_count": 15,
+      "date_posted": "4 days ago"
+    },
+    {
+      "id": 5,
+      "image": "https://i.ibb.co/gcCv0bV/erik-odiin-DH-IAg-Zk-JP4-unsplash.jpg",
+      "model": "Tesla Model 3 2023",
+      "daily_price": "$90/day",
+      "available": false,
+      "booking_count": 20,
+      "date_posted": "2 days ago"
+    },
+    {
+      "id": 6,
+      "image": "https://i.ibb.co/VpbSjYJj/peter-broomfield-m3m-ln-R90u-M-unsplash.jpg",
+      "model": "Nissan Altima 2022",
+      "daily_price": "$42/day",
+      "available": true,
+      "booking_count": 7,
+      "date_posted": "5 days ago"
+    }
+  ]
+  
