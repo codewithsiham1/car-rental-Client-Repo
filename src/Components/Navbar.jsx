@@ -35,7 +35,7 @@ const Navbar = () => {
                 <Link to="/mycars-page">My Cars</Link>
               </li>
               <li className="hover:text-indigo-600 transition">
-                <Link to="/my-bookings">My Bookings</Link>
+                <Link to="/my-booking">My Bookings</Link>
               </li>
 
               {/* Profile Photo */}

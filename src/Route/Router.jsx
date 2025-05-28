@@ -8,7 +8,14 @@ import Signin from "../Pages/Signin/Signin";
 import Availablecars from "../Pages/Availablecars";
 import AddCarPage from "../Pages/AddCarPage";
 import Privateroute from "./Privateroute";
-import MyCarsPage from "../Pages/MyCarsPage";
+
+
+
+import MyBookings from "../Pages/MyBookings ";
+import UpdateCar from "../Pages/UpdateCar";
+import Bookings from "../Pages/Bookings";
+import Bookingform from "../Pages/Bookingform";
+
 
 
 
@@ -45,13 +52,26 @@ const Router=createBrowserRouter([
                 <AddCarPage></AddCarPage>
             </Privateroute>
         },
+      
+       
         {
-            path:"/mycars-page",
+            path:"/my-booking",
             element:<Privateroute>
-                <MyCarsPage></MyCarsPage>
+                <MyBookings></MyBookings>
             </Privateroute>
+        },
+        {
+            path:"/update-car/:id",
+            element:<UpdateCar></UpdateCar>
+        },
+        {
+            path:"/bookings",
+            element:<Bookings></Bookings>
+        },
+        {
+        path:"/book/:carId",
+        element:<Bookingform></Bookingform>
         }
-
       
     ]
 }
