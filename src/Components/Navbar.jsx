@@ -32,7 +32,7 @@ const Navbar = () => {
                 <Link to='/addcar-page'>Add Car</Link>
               </li>
               <li className="hover:text-indigo-600 transition">
-                <Link to="/mycars-page">My Cars</Link>
+                <Link to="/my-cars">My Cars</Link>
               </li>
               <li className="hover:text-indigo-600 transition">
                 <Link to="/my-booking">My Bookings</Link>

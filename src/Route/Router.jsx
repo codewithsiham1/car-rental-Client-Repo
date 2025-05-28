@@ -15,6 +15,7 @@ import MyBookings from "../Pages/MyBookings ";
 import UpdateCar from "../Pages/UpdateCar";
 import Bookings from "../Pages/Bookings";
 import Bookingform from "../Pages/Bookingform";
+import MyCars from "../Pages/MyCars";
 
 
 
@@ -71,6 +72,10 @@ const Router=createBrowserRouter([
         {
         path:"/book/:carId",
         element:<Bookingform></Bookingform>
+        },
+        {
+            path:"/my-cars",
+            element:<MyCars></MyCars>
         }
       
     ]
