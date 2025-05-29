@@ -7,12 +7,12 @@ import SpecialOffers from './SpecialOffers';
 
 const Home = () => {
     return (
-        <div>
-        <Banner></Banner>
-        <Whychoseuse></Whychoseuse>
-        <RecentListings></RecentListings>
-        <Howitworks></Howitworks>
-        <SpecialOffers></SpecialOffers>
+        <div className="space-y-16 px-4 md:px-8 max-w-7xl mx-auto">
+            <Banner />
+            <Whychoseuse />
+            <RecentListings />
+            <Howitworks />
+            <SpecialOffers />
         </div>
     );
 };
