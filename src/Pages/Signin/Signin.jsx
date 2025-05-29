@@ -5,6 +5,7 @@ import { Link, useNavigate } from 'react-router-dom';
 import Authcontext from '../../Context/Authcontext';
 import { toast } from 'react-toastify';
 import { FcGoogle } from "react-icons/fc";
+import axios from 'axios';
 
 const Signin = () => {
   const { signInuser, setloading, loading, googleLogin } = useContext(Authcontext);
@@ -16,7 +17,13 @@ const Signin = () => {
     const email = form.email.value;
     const password = form.password.value;
     signInuser(email, password)
-      .then(() => {
+      .then((result) => {
+        console.log('sign in',result.user.email)
+        const user={email:email}
+        axios.post('http://localhost:5000/jwt',user)
+        .then(data=>{
+            console.log(data)
+        })
         toast.success("Login successful!");
         form.reset();
         navigate('/');
